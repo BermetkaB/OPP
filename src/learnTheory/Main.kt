@@ -29,13 +29,16 @@ fun main() {
         println(worker.work())
     }*/
 
-    val messageService=MessageService()
-    messageService.sendMessage("Bermet@","Nursultan@", " Hello Nursultan! This is my homework")
+   // val messageService=MessageService()
+   // messageService.sendMessage("Bermet@","Nursultan@", " Hello Nursultan! This is my homework")
   //  val messageService1=MessageService()
 
         //  messageService1.sendMessage(123215478, 123456789, "message")
 
-
+     val emailService=EmailService()
+    val smsServie=SmsServie()
+    emailService.sendMessage("Bermet@","Nursultan@", "Hello")
+    smsServie.sendMessage("Nursultan@","Me@","Hello")
 
 
 
