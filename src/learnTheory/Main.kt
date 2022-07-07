@@ -4,7 +4,7 @@ import homeworkPractic.Programmer
 import homeworkPractic.Worker
 
 fun main() {
-    val dog=Dog(3.5f)
+   /* val dog=Dog(3.5f)
     println(dog.name)
     println(dog.habitat)
     println(dog.weight)
@@ -27,5 +27,26 @@ fun main() {
     workers.add(Programmer("Kotlin","Nursultan", 19))
     for (worker in workers){
         println(worker.work())
-    }
+    }*/
+
+    val messageService=MessageService()
+    messageService.sendMessage("Bermet@","Nursultan@", " Hello Nursultan! This is my homework")
+  //  val messageService1=MessageService()
+
+        //  messageService1.sendMessage(123215478, 123456789, "message")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
